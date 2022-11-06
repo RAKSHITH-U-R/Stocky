@@ -1,0 +1,3 @@
+# Stocky
+
+DISCORD BOT USING JDA
