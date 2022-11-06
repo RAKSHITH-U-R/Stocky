@@ -1,0 +1,42 @@
+{
+  "name": "line",
+  "description": "Returns a line chart for a given symbol in the specified time period",
+  "options": [
+    {
+      "name": "symbol",
+      "description": "Symbol of the stock to be queried",
+      "type": 3,
+      "required": true
+    },
+    {
+      "name": "time-period",
+      "description": "Time period of the data to be queried",
+      "type": 3,
+      "required": true,
+      "choices": [
+        {
+          "name": "latest",
+          "value": "latest"
+        },
+        {
+          "name": "monthly",
+          "value": "monthly"
+        },
+        {
+          "name": "weekly",
+          "value": "weekly"
+        },
+        {
+          "name": "daily",
+          "value": "daily"
+        }
+      ]
+    },
+    {
+      "name": "email",
+      "description": "Email",
+      "type": 3,
+      "required": true
+    }
+  ]
+}
