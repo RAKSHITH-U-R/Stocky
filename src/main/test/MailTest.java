@@ -6,11 +6,11 @@ import java.util.Map;
 
 public class MailTest {
     public static void main(String[] args) {
-        String mailFrom = "zmechy2001@gmail.com";
-        String password = "gREENARROW_01";
+        String mailFrom = "20pw27@psgtech.ac.in";
+        String password = "Rur876@2002";
 
         // message info
-        String mailTo = "rit6569@gmail.com";
+        String mailTo = "rakshithur876@gmail.com";
         String subject = "Test e-mail with inline images";
         StringBuffer body
                 = new StringBuffer("<html>This message contains two inline images.<br>");

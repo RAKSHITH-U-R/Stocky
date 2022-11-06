@@ -8,8 +8,8 @@ public class RedisAdapter {
 
     public void connect () {
         try {
-            jedis = new Jedis("localhost:3005");
-            System.out.println("Redis Connected");
+            jedis = new Jedis("localhost");
+            System.out.println("Redis Connected"+jedis);
         }catch (Exception e) {
             System.out.println(e.getMessage());
         }

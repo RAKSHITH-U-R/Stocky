@@ -17,7 +17,7 @@ import java.util.Map;
 
 public class OHLCCommand implements SlashCommand {
     static AlphaVantageHelper APIHelper = new AlphaVantageHelper();
-    static MailHelper mailHelper = new MailHelper("zmechy2001@gmail.com", "gREENARROW_01");
+    static MailHelper mailHelper = new MailHelper("20pw27@psgtech.ac.in", "Rur876@2002");
 
     @Override
     public String getName() {
