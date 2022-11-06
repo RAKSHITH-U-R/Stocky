@@ -11,12 +11,12 @@ public class BotTest {
     private static final Logger LOGGER = LoggerFactory.getLogger(BotTest.class);
 
     public static void main(String[] args) {
-
         Dotenv dotenv = Dotenv.configure()
                 .directory(".")
                 .ignoreIfMalformed()
                 .ignoreIfMissing()
                 .load();
+
         //Creates the gateway client and connects to the gateway
         final GatewayDiscordClient client = DiscordClientBuilder.create(dotenv.get("BOT_TOKEN")).build()
                 .login()
